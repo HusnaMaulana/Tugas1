@@ -1,0 +1,334 @@
+/* Style for navigation bar */
+.BigContainer {
+  background-color: rgb(230, 228, 228);
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f2f2f2;
+}
+.navbar-container {
+  display: flex;
+  justify-content: center;
+  padding: 0px;
+  margin: 0px;
+}
+.wrapper-navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 80px;
+  padding: 10px 20px;
+  overflow-x: hidden;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+}
+
+.Logo img {
+  width: 200px;
+  height: 70.11px;
+  margin-right: 50px;
+}
+
+.navbar {
+  list-style: none;
+  display: flex;
+}
+
+.navbar li {
+  margin-right: 15px;
+}
+
+.navbar li a {
+  text-decoration: none;
+  font-size: large;
+  color: gray;
+}
+
+.navbar > li > a:hover {
+  text-decoration: underline;
+  color: gray;
+}
+
+/*Konten*/
+.Konten1 {
+  text-align: center;
+  justify-content: center;
+  font-size: 6rem;
+  font-weight: bold;
+  font-family: serif;
+  margin-right: 10rem;
+  margin-left: 10rem;
+  margin-bottom: 5rem;
+}
+
+.text-konten1-line2 {
+  text-align: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 3rem;
+  font-family: serif;
+  margin-right: 5rem;
+  margin-left: 5rem;
+  margin-bottom: 5rem;
+}
+
+.text-konten1 {
+  color: #de3f1c;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.content-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Konten2 {
+  text-align: center;
+  justify-content: center;
+  font-size: 1.8rem;
+  font-weight: bold;
+  font-family: serif;
+  color: gray;
+  margin: 0 12rem 3.5rem 12rem;
+}
+
+.input-group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+  width: auto;
+  height: 20px;
+}
+
+/*Menu*/
+.container-menu {
+  /*display: flex;
+  justify-content: space-evenly;
+  margin-top: 20px;*/
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 40px auto;
+  max-width: 1200px;
+}
+
+.container-menu img {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 10px;
+}
+
+.container-menu h3 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.container-menu p {
+  font-size: 0.9rem;
+  color: #777;
+}
+
+/*mikroskop*/
+.mikroskop {
+  text-align: center;
+}
+
+.mikroskop img {
+  display: block;
+  margin: 0 auto;
+}
+
+.mikroskop h3 {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.mikroskop p.mikroskop-text {
+  text-align: center;
+  margin-top: 10px;
+}
+
+/*gamepad*/
+.gamepad {
+  text-align: center;
+}
+
+.gamepad img {
+  display: block;
+  margin: 0 auto;
+}
+
+.gamepad h3 {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.gamepad p.gamepad-text {
+  text-align: center;
+  margin-top: 10px;
+}
+
+/*pensil*/
+.pensil {
+  text-align: center;
+}
+
+.pensil img {
+  display: block;
+  margin: 0 auto;
+}
+
+.pensil h3 {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.pensil p.pensil-text {
+  text-align: center;
+  margin-top: 10px;
+}
+
+/*instructors*/
+.container-profile {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 30px;
+}
+
+.title h1 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.title a {
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 15px;
+  color: #de3f1c;
+}
+
+.title a:hover {
+  text-decoration: underline;
+}
+
+/*member*/
+.profile {
+  display: flex;
+  align-items: center;
+  margin: 20px;
+}
+
+.team-member {
+  /*border-radius: 5px;
+  margin: 10px;
+  padding: 20px;
+  width: 300px;*/
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+  padding: 40px;
+  border-radius: 5px;
+}
+
+.profile-box {
+  display: flex;
+  align-items: center;
+}
+
+.profile-picture img {
+  /*width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-right: 10px;*/
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 20px;
+  margin-bottom: 150px;
+}
+
+.team-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.profile-description h3 {
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+}
+
+.profile-description p {
+  text-align: left;
+  font-size: 1rem;
+  color: #666;
+}
+
+/*searc box*/
+.seacrh-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30vh;
+  margin-bottom: 100px;
+}
+
+.box {
+  width: 450px;
+  height: 200px;
+  padding: 15px;
+  padding-top: 20px;
+  text-align: left;
+  background-color: #d7dae0;
+  box-shadow: 0 7px 15px 0 rgb(163, 162, 162);
+  border-radius: 5px;
+}
+
+.box p {
+  font-size: large;
+  font-weight: 5px;
+  color: gray;
+}
+
+footer {
+  background-color: #f3f4f6;
+  color: grey;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  bottom: 0;
+  width: 100%;
+  left: 0;
+}
+
+.right-content {
+  display: flex;
+  gap: 50px;
+  margin-right: 40px;
+}
+
+.right-content a {
+  color: grey;
+  text-decoration: none;
+}
+
+.right-content a:hover {
+  text-decoration: underline;
+}
