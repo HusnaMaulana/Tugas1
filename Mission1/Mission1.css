@@ -1,0 +1,123 @@
+/* mission1.css */
+.Black-Text-Box {
+  color: black;
+  font-size: 40px;
+  font-weight: bold;
+}
+.White-Text-Box {
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.container {
+  display: flex;
+}
+
+.blue-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 33.3vw;
+  height: 50vh;
+  background-color: blue;
+}
+
+.yellow-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 33.3vw;
+  height: 16.67vh;
+  background-color: yellow;
+}
+
+.red-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 33.3vw;
+  height: 16.67vh;
+  background-color: red;
+}
+
+.green-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 33.3vw;
+  height: 16.67vh;
+  background-color: green;
+}
+
+.black-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 66.7vw;
+  height: 16.67vh;
+  background-color: black;
+}
+
+.brown-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 33.3vw;
+  height: 33.34vh;
+  background-color: brown;
+}
+
+.purple-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 33.3vw;
+  height: 33.34vh;
+  background-color: purple;
+}
+
+.orange-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 33.3vw;
+  height: 16.64vh;
+  background-color: orange;
+}
+
+.white-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 16.65vw;
+  height: 20vh;
+  background-color: white;
+}
+
+.grey-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 33.4vw;
+  height: 43.3vh;
+  background-color: grey;
+}
+
+.pink-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 16.75vw;
+  height: 20vh;
+  background-color: pink;
+}
+
+.cyan-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 16.75vw;
+  height: 20vh;
+  background-color: lightblue;
+}
